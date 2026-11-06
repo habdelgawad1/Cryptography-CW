@@ -7,7 +7,7 @@ from des import BLOCK, ecb_encrypt
 
 
 HOST, PORT = "127.0.0.1", 5050
-KEY = bytes.fromhex("133457799BBCDFF1")
+KEY = b"LEG-BANK"
 
 
 def main() -> None:

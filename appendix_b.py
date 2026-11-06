@@ -1,11 +1,9 @@
-"""Show why identical blocks are visible when DES is used in ECB mode."""
-
 import sys
 
 from des import BLOCK, encrypt_block
 
 
-KEY = bytes.fromhex("133457799BBCDFF1")
+KEY = b"LEG-BANK"
 DEFAULT_MESSAGE = b"SEND$100SEND$100SEND$900"
 
 

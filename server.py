@@ -6,7 +6,7 @@ from des import BLOCK, ecb_decrypt
 
 
 HOST, PORT = "127.0.0.1", 5050
-KEY = bytes.fromhex("133457799BBCDFF1")
+KEY = b"LEG-BANK"
 MAX_MESSAGE_SIZE = 65536
 
 
